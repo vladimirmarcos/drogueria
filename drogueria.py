@@ -1,13 +1,12 @@
 import tkinter as tk
-from menu.menu import App
+from App.menu import App
 import ttkbootstrap as tb
 
 def main():
     ventana = App()
-    ventana.title("Machirulo")
+    ventana.title("asdsad")
     ventana.state("zoomed")
     tb.Style("cyborg")
-
     ventana.mainloop()
 
 
